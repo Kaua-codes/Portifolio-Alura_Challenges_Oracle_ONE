@@ -1,0 +1,53 @@
+/*! Variaveis css (propriedades personalizaveis) */
+/*! Configurações gerais */
+
+body {
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  color: #464646;
+
+  padding: 0 152px;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: auto;
+}
+
+/*! header */
+.cabecalho__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+
+  padding: 32.5px 0;
+  white-space: nowrap;
+}
+
+.cabecalho__usuario {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: auto;
+}
+
+.cabecalho__usuario-nome {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cabecalho__menu-lista {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.cabecalho__menu,
+.cabecalho__usuario-nome {
+  margin-left: auto;
+}
+/*! main */
+/*! footer */
+/*! media queries */
