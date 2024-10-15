@@ -26,10 +26,7 @@ body {
 }
 
 .cabecalho__usuario {
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 16px;
-  line-height: auto;
 }
 
 .cabecalho__usuario-nome {
@@ -49,5 +46,56 @@ body {
   margin-left: auto;
 }
 /*! main */
+
+/* apresencacao */
+.apresentacao__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  padding: 32px 0px;
+}
+
+.apresentacao__container-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  padding: 60px 0px;
+}
+
+.apresentacao__titulo {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.apresentacao__paragrafo {
+  font-size: 22px;
+  font-weight: 400;
+}
+.apresentacao__redes {
+  display: flex;
+  gap: 32px;
+}
+
+.apresentacao__link a {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+}
+
+.apresentacao__container-imagem {
+  display: flex;
+  justify-content: flex-end;
+  width: 55%;
+}
+
+.apresentacao__imagem {
+  width: 100%;
+  border-radius: 50%;
+}
+
 /*! footer */
 /*! media queries */
