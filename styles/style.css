@@ -95,7 +95,7 @@ body {
   border-radius: 50%;
 }
 
-/* sobre */
+/* sobre mim */
 .sobre__container {
   display: flex;
   flex-direction: column;
@@ -111,6 +111,73 @@ body {
 
 .sobre__paragrafo {
   font-weight: 400;
+  font-size: 16px;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+  padding: 32px 152px 56px;
+}
+
+.skills__titulo {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.skills__cards {
+  width: 100%;
+}
+
+.skills__cards--lista {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.skills__cards--item {
+  flex-grow: 1;
+}
+
+.skills__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #ffffff;
+
+  min-width: 176px;
+  min-height: 174px;
+}
+
+.skills__card--imagem-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  padding: 0 0 16px 16px;
+}
+
+.skills__card--imagem-html {
+  width: 24px;
+  height: 37px;
+}
+
+.skills__card--imagem-css {
+  width: 22px;
+  height: 36px;
+}
+
+.skills__card--imagem-javascript {
+  width: 28px;
+  height: 37px;
+}
+
+.skills__card--imagem-descricao {
+  font-weight: 700;
   font-size: 16px;
 }
 
