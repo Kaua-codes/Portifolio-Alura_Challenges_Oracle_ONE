@@ -181,5 +181,62 @@ body {
   font-size: 16px;
 }
 
+/* Hobbies */
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+  padding: 32px 152px 88px;
+}
+
+.hobbies__titulo {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.hobbies__cards {
+  width: 100%;
+}
+
+.hobbies__cards--lista {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.hobbies__cards--item {
+  flex-grow: 1;
+}
+
+.hobbies__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #ffffff;
+
+  min-width: 176px;
+  min-height: 174px;
+}
+
+.hobbies__card--imagem-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  padding: 0 0 16px 16px;
+}
+
+.hobbies__card--imagem-logo {
+  width: 32px;
+  height: 32px;
+}
+
+.hobbies__card--imagem-descricao {
+  font-weight: 700;
+  font-size: 16px;
+}
+
 /*! footer */
 /*! media queries */
