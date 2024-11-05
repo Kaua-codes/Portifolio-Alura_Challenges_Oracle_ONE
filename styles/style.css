@@ -407,5 +407,158 @@ body {
   display: inline-block;
   padding: 16px;
 }
+
+/* Contato */
+.contato {
+  background-color: #eaf2fd;
+  display: flex;
+  gap: 16px;
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 128px 152px 64px;
+}
+
+.contato__imagem {
+  width: 464px;
+  height: 593px;
+}
+
+.contato__texto--container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.contato__titulo--container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 8px;
+}
+
+.contato__titulo {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.contato__subtitulo--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  gap: 1px;
+}
+
+.contato__subtitulo {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.contato__formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  width: 100%;
+}
+
+.contato__formulario--entrada-container {
+  box-sizing: border-box;
+
+  background-color: #ffffff;
+  padding: 8px 12px;
+
+  min-height: 56px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contato__formulario > :nth-child(4) {
+  padding: 16px 12px 8px;
+  min-height: 133px;
+}
+
+.contato__formulario--label-nome,
+.contato__formulario--label-email,
+.contato__formulario--label-assunto,
+.contato__formulario--label-mensagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #a2a2a2;
+}
+
+.contato__formulario--label-assunto span,
+.contato__formulario--label-mensagem span {
+  display: none;
+}
+
+.contato__formulario--label-nome input,
+.contato__formulario--label-email input,
+.contato__formulario--label-assunto input,
+.contato__formulario--label-mensagem textarea {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #464646;
+
+  padding: 1px 0px;
+  outline: none;
+}
+
+.contato__formulario--label-mensagem textarea {
+  height: 107px;
+  resize: none;
+}
+
+.contato__formulario--label-nome input::placeholder,
+.contato__formulario--label-email input::placeholder,
+.contato__formulario--label-assunto input::placeholder,
+.contato__formulario--label-mensagem textarea::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #a2a2a2;
+}
+
+.contato__formulario--label-nome input:focus::placeholder,
+.contato__formulario--label-email input:focus::placeholder,
+.contato__formulario--label-assunto input:focus::placeholder,
+.contato__formulario--label-mensagem textarea:focus::placeholder {
+  color: transparent;
+}
+
+.contato__formulario--label-nome:focus-within,
+.contato__formulario--label-email:focus-within,
+.contato__formulario--label-assunto:focus-within,
+.contato__formulario--label-mensagem:focus-within {
+  color: #2a7ae4;
+
+  border-bottom: 2px;
+  border-color: #2a7ae4;
+  border-style: solid;
+}
+
+.contato__formulario--button {
+  background-color: #2a7ae4;
+  padding: 16px;
+  color: #ffffff;
+
+  font-weight: 400;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
 /*! footer */
+
 /*! media queries */
